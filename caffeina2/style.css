@@ -1,6 +1,6 @@
 *{
-    padding:0px;
-    margin:0px;
+    padding:0p;
+    margin:0;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,17 @@ body{
     font-family: serif;
     font-weight: bolder;
 }
+.navbar-brand,h2,a{
+    color:#a01111;
+    text-decoration: underline;
 
+}
+
+.navbar-brand,h2,a:hover{
+    color:#b1abab;
+    
+
+}
 .navbar-nav li a{
     color:#3D3000;
     font-weight: bold;
@@ -24,7 +34,8 @@ body{
 }
 
 .navbar-nav li a:hover{
-    color:white;
+    color:rgb(10, 10, 10);
+    text-decoration: underline;
 }
 
 #bi {
@@ -49,4 +60,25 @@ body{
 color:#3D3000;
 font-size:2rem;
 
+}
+@media screen and (max-width: 600px) {
+    .buy{
+        margin-top:0px;
+        padding-right: 0px;
+    }
+    .col h2{
+        font-size:1rem;
+    }
+    .col h6{
+        font-size:0.8rem;
+    }
+}
+
+@media 
+screen and (max-width: 300px){
+    img{
+        width: 50%;
+        height: 50%;
+    };
+    
 }
